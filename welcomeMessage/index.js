@@ -7,3 +7,10 @@ let greeting = "Welcome back, ";
 let fullGreeting = greeting + name;
 // Render the welcome message using welcomeEl.innerText
 welcomeEl.innerText = fullGreeting;
+
+// Add an emoji to the end! 👋
+// WRITE YOUR CODE BELOW HERE
+// HINT: count = count + 1
+let emoji = "👋";
+
+welcomeEl.innerText = fullGreeting + emoji;
